@@ -10,7 +10,7 @@ const Hero = () => {
         <h1 className="text-5xl md:text-8xl font-black text-shadow">Hey, I'm Enes.</h1>
         <h2 className="text-3xl font-bold">A curios & passionate Full Stack Web Developer</h2>
       </div>
-        <img src={portfolioImg} className="clip max-h-[60vh] max-w-[60vw]"/>
+        <img src={portfolioImg} loading="lazy" alt="profile picture of Enes Kilic" className="clip max-h-[60vh] max-w-[60vw]"/>
     </div>
   </ main>
   )
