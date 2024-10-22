@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { useState } from 'react';
-import { cards } from './cards';
+import { cards } from './data.js';
 import Card from './Card.jsx';
 import Modal from './Modal.jsx';
 
