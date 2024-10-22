@@ -1,4 +1,4 @@
-import myVideoImg from "../assets/images/myvideoapp-img.png"
+import myVideoImg from "../assets/images/myvideoapp-img.webp"
 import movieApiImg from "../assets/images/movie-api-img.png"
 import myMeetAppImg from "../assets/images/mymeetapp-img.png"
 import pokedexImg from "../assets/images/pokedex-project.png"   
