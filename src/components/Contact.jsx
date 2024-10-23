@@ -40,23 +40,23 @@ const Contact = () => {
                     <Player src='https://lottie.host/faece7d1-e010-4d96-aa80-3f7a391b7d29/54Y5ZIdcnz.json' loop autoplay />
                 </div>
                 <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-sm lg:col-start-5 lg:col-end-8">
-                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center dark:text-white">Contact Me!</h2>
-                    <p className="mb-8 font-bold text-center text-gray-500 dark:text-gray-400 sm:text-xl">Any questions in mind? Like to share some ideas for web? Feel free to get in touch with me. I will be happy to hear from you!
+                    <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center">Contact Me!</h2>
+                    <p className="mb-8 font-bold text-center sm:text-xl">Any questions in mind? Like to share some ideas for web? Feel free to get in touch with me. I will be happy to hear from you!
                     </p>
                     <form onSubmit={onSubmit} className="space-y-3">
                         <div>
-                            <label htmlFor="name" className="block mb-2 text-base font-bold text-gray-900 dark:text-gray-300">Name
-                                <input type="text" id="name" name="name" className="block p-3 w-full text-base text-gray-900 bg-[#f1f3f6] rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light [box-shadow:inset_2px_2px_5px_#b8b9be,inset_-3px_-3px_7px_#fff]" placeholder="Your name" required />
+                            <label htmlFor="name" className="block mb-2 text-base font-bold ">Name
+                                <input type="text" id="name" name="name" className="block p-3 w-full text-base text-gray-900 bg-[#f1f3f6] rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 [box-shadow:inset_2px_2px_5px_#b8b9be,inset_-3px_-3px_7px_#fff]" placeholder="Your name" required />
                             </label>
                         </div>
                         <div>
-                            <label htmlFor="email" className="block mb-2 text-base font-bold text-gray-900 dark:text-gray-300">Your email
-                                <input type="email" id="email" name="email" className="shadow-sm bg-[#f1f3f6] border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light [box-shadow:inset_2px_2px_5px_#b8b9be,inset_-3px_-3px_7px_#fff]" placeholder="your@email.com" required />
+                            <label htmlFor="email" className="block mb-2 text-base font-bold ">Your email
+                                <input type="email" id="email" name="email" className="shadow-sm bg-[#f1f3f6] border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 [box-shadow:inset_2px_2px_5px_#b8b9be,inset_-3px_-3px_7px_#fff]" placeholder="your@email.com" required />
                             </label>
                         </div>
                         <div className="sm:col-span-2">
-                            <label htmlFor="message" className="block mb-2 text-base font-bold text-gray-900 dark:text-gray-400">Your message
-                                <textarea id="message" name="message" rows="6" className="block p-2.5 w-full text-base text-gray-900 bg-[#f1f3f6] rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 [box-shadow:inset_2px_2px_5px_#b8b9be,inset_-3px_-3px_7px_#fff]" placeholder="Leave a message!"></textarea>
+                            <label htmlFor="message" className="block mb-2 text-base font-bold ">Your message
+                                <textarea id="message" name="message" rows="6" className="block p-2.5 w-full text-base text-gray-900 bg-[#f1f3f6] rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 [box-shadow:inset_2px_2px_5px_#b8b9be,inset_-3px_-3px_7px_#fff]" placeholder="Leave a message!"></textarea>
                             </label>
                         </div>
                         <button type="submit" className="[box-shadow:-6px_-6px_14px_rgba(255,_255,_255,_.7),_-6px_-6px_10px_rgba(255,_255,_255,_.5),_6px_6px_8px_rgba(255,_255,_255,_.075),_6px_6px_10px_rgba(0,_0,_0,_.15)] hover:[box-shadow:-2px_-2px_6px_rgba(255,_255,_255,_.6),_-2px_-2px_4px_rgba(255,_255,_255,_.4),_2px_2px_2px_rgba(255,_255,_255,_.05),_2px_2px_4px_rgba(0,_0,_0,_.1)] bg-[#f1f3f6] active:[box-shadow:inset_-2px_-2px_6px_rgba(255,_255,_255,_.7),_inset_-2px_-2px_4px_rgba(255,_255,_255,_.5),_inset_2px_2px_2px_rgba(255,_255,_255,_.075),_inset_2px_2px_4px_rgba(0,_0,_0,_.15)] p-2 mr-2 mb-2 rounded-lg font-bold">Send message</button>
