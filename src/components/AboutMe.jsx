@@ -4,7 +4,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 const AboutMe = () => {
 
     return (
-        <section className="flex flex-col w-screen h-screen order-2 lg:order-first" id="about">
+        <section className="flex flex-col w-screen h-dvh order-2 lg:order-first" id="about">
             <h1 className="text-4xl text-center lg:text-6xl font-black h-fit mt-auto mb-4">About Me</h1>
             <div className="md:flex h-fit my-5 mx-auto justify-center items-center md:max-h-[600%] mb-auto">
                 <div className="flex flex-col gap-3 mx-5 max-[380px]:text-sm text-base md:w-1/2 *:font-bold lg:leading-relaxed">
@@ -33,7 +33,7 @@ export default AboutMe;
 
 /*
 
-<section className="flex flex-wrap w-screen bg-[#e5e5e5] h-screen order-2" id="about">
+<section className="flex flex-wrap w-screen bg-[#e5e5e5] h-dvh order-2" id="about">
                 <div className="flex flex-wrap flex-col w-[50] before:gap-6 justify-center mt-3 p-10 text-[#545454]">
                     <h1 className="text-5xl font-medium">About Me</h1>
                     <p>

@@ -34,8 +34,8 @@ const Contact = () => {
 
 
     return (
-        <section className="w-screen order-4 h-screen lg:order-2" id="contact">
-            <div className='lg:grid lg:max-h-screen lg:grid-cols-10 lg:grid-rows-11'>
+        <section className="w-screen order-4 h-dvh lg:order-2" id="contact">
+            <div className='lg:grid lg:max-h-dvh lg:grid-cols-10 lg:grid-rows-11'>
                 <div className='lg:col-start-2 lg:col-end-5 lg:row-start-3 lg:row-end-5 hidden lg:inline'>
                     <Player src='https://lottie.host/faece7d1-e010-4d96-aa80-3f7a391b7d29/54Y5ZIdcnz.json' loop autoplay />
                 </div>
