@@ -1,6 +1,8 @@
 module.exports = {
   plugins: {
     tailwindcss: {},
-    autoprefixer: {},
+    autoprefixer: {
+      overrideBrowserslist: ['last 2 versions', 'Safari >= 10', 'iOS >= 10'],
+    },
   },
 };
