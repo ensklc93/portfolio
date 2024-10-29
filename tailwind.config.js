@@ -1,15 +1,27 @@
 /** @type {import('tailwindcss').Config} */
+
+import fluid, { extract, screens, fontSize } from 'fluid-tailwind'
+
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: {
+    files: [
+      "./index.html",
+      "./src/**/*.{js,ts,jsx,tsx}",
+    ],
+    extract
+  },
   theme: {
+    screens,
+    fontSize,
     extend: {},
     fontFamily: {
-      nunito: ["Nunito", "sans-serif"]  
+      nunito: ["Nunito", "sans-serif"]
     }
   },
-  plugins: [],
+  plugins: [
+    fluid({
+      checkSC144: false
+    })
+  ],
 }
 
