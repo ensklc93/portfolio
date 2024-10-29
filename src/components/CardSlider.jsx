@@ -39,14 +39,14 @@ const CardSlider = () => {
     return (
         <>
             {modalElement}
-            <div className='w-[90vw] ms-auto me-auto h-[60%]'>
+            <div className='w-[90svw] ms-auto me-auto h-[65dvh]'>
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
                     spaceBetween={0}
                     slidesPerView={1}
                     navigation
                     loop={true}
-                    className='h-full m-10'
+                    className='h-full ~m-5/10'
                     breakpoints={{
                         840: {
                             slidesPerView: 2
