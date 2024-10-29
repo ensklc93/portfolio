@@ -8,11 +8,20 @@
   src: url("../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf");
 }
 
-body {
-  background-color: #f1f3f6;
-  color: #545454;
-  font-family: "Nunito", Arial, Helvetica, sans-serif;
+@layer base {
+  body {
+    background-color: #f1f3f6;
+    color: #545454;
+    font-family: "Nunito", Arial, Helvetica, sans-serif; 
+  }
 }
+
+@media screen(md) {
+  body{
+    overflow: hidden;
+  }
+}
+
 
 @layer components {
   .clip {
@@ -20,10 +29,11 @@ body {
   }
 
   .text-shadow {
-    text-shadow: -8px -8px 12px rgba(255,255,255,0.4),
-    8px 8px 12px rgba(0,0,0,0.08);
+    text-shadow: -8px -8px 12px rgba(255, 255, 255, 0.4),
+      8px 8px 12px rgba(0, 0, 0, 0.08);
 
-    &::before, &::after {
+    &::before,
+    &::after {
       position: absolute;
       background: #f1f3f6;
       content: '';
