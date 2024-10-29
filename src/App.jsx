@@ -15,7 +15,7 @@ export default function App() {
     return (
         <>
             <Navbar />
-            <div className="flex flex-col w-screen lg:flex-row lg:flex-wrap lg:w-[300vw]">
+            <div className="flex flex-col w-screen lg:flex-row lg:flex-wrap lg:w-[300vw] lg:overflow-hidden">
                 <AboutMe/>
                 <Hero/>
                 <Contact/>
